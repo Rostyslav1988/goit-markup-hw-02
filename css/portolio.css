@@ -64,6 +64,7 @@ color: #757575;
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
+    color: #000000
     /*color: #FFFFFF; */
 }
 .mail-footer {
@@ -72,6 +73,7 @@ color: #757575;
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
+    color: #000000
     /*color: rgba(255, 255, 255, 0.6); */
 }
 .tel-footer {
@@ -81,12 +83,14 @@ color: #757575;
     letter-spacing: 0.03em;
     font-style: normal;
     font-size: 14px;
-line-height: 24px;
+    line-height: 24px;
+    color: #000000;
 /* or 171% */
 
 letter-spacing: 0.03em;
     /*color: rgba(255, 255, 255, 0.6); */
 }
+
 .menu {
 font-weight: 500;
 background-color: #F5F4FA;;
@@ -95,14 +99,16 @@ font-size: 16px;
 line-height: 26px;
 letter-spacing: 0.03em;
 border: none;
+margin: 0 auto;
+padding: 0 auto;
 }
-.menu:not(:last-child) {
-    margin-right: 8px;
+.padding-left-rigt {
+    margin: auto;
+    padding: auto;
 }
 .box-shadow:hover,
 .box-shadow:focus {
     cursor: pointer;
-    box-sizing: border-box;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .menu:hover, 

@@ -1,4 +1,9 @@
-
+:root {
+    --color-text: #212121;
+    --color-second-text: #757575;
+    --focus-color: #2196F3;
+    --secondary-font: "Raleway", sans-serif;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -17,23 +22,26 @@ li {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--color-text);
     text-decoration: none;
+}
+.active {
+    color: var(--focus-color);
 }
 .navigation-link:hover,
 .navigation-link:focus {
-    color: #2196F3;
+    color: var(--focus-color);
 }
 .mail-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--color-second-text);
 }
 .mail-link:hover,
 .mail-link:focus {
-    color: #2196F3;
+    color: var(--focus-color);
     text-decoration: underline;
 }
 .tel-link {
@@ -41,11 +49,11 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--color-second-text);
 }
 .tel-link:hover,
 .tel-link:focus {
-    color: #2196F3;
+    color: var(--focus-color);
     text-decoration: underline;
 }
 .logo-link {
@@ -57,7 +65,7 @@ color: #757575;
     color: #000000;
 }
 .web-logo {
-    color:#2196F3;
+    color: var(--focus-color);
 }
 
 .logo-footer {
@@ -66,7 +74,7 @@ color: #757575;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #ffff;
 }
 .adress-footer {
     font-weight: 400;
@@ -74,8 +82,8 @@ color: #757575;
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
-    color: #000000
-    /*color: #FFFFFF; */
+    
+    color: #FFFFFF;
 }
 .mail-footer {
     font-weight: 400;
@@ -83,7 +91,7 @@ color: #757575;
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
-    color: #757575;
+    color: var(--color-second-text);
 }
 .tel-footer {
     font-weight: 400;
@@ -93,7 +101,7 @@ color: #757575;
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #757575;
+    color: var(--color-second-text);
 
 letter-spacing: 0.03em;
     /*color: rgba(255, 255, 255, 0.6); */
@@ -124,7 +132,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--color-second-text);
 }
 .box-shadow:hover,
 .box-shadow:focus {
@@ -134,8 +142,14 @@ color: #757575;
 .menu:hover, 
 .menu:focus {
     color: rgb(255, 255, 255);
-    background-color: #2196F3;
+    background-color: var(--focus-color);
     cursor: pointer;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+.web-logo2 {
+    color: #ffff;
+}
+.foter-color {
+    background: #2F303A;
 }
